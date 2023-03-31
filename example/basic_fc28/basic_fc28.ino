@@ -14,5 +14,5 @@ void setup() {
 
 void loop() {
   soil_moisture = mySensor.getSoilMoisture(); // Calls soil moisture data through the getSoilMoisture method. It is accessed from the mySensor object.
-  Serial.println("Soil Moisture Value: "+String(soil_moisture,2)); // Prints the soil moisture value
+  Serial.println("Soil Moisture Value: "+String(soil_moisture,2)+"%"); // Prints the soil moisture value
 }
