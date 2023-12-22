@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/ESP32_FC28)
-![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=008B8B)
+![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # ESP32_FC28
 Library ini digunakan untuk membaca proporsi data kelembaban tanah yang ada pada sensor. Pustaka ini dibuat khusus untuk mendukung proyek ESP32.
