@@ -1,8 +1,8 @@
 // Library: Soil Moisture FC-28
 // By: Devan Cakra M.W
 
-#ifndef ESP32_FC28_H
-#define ESP32_FC28_H
+#ifndef FC28_H
+#define FC28_H
 
 #include <Arduino.h>
 
