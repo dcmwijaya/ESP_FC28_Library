@@ -9,7 +9,7 @@ Pustaka ini digunakan untuk membaca kelembapan tanah dalam bentuk persentase.
 <br/>
 
 ## INFORMASI UMUM
-<img src="https://user-images.githubusercontent.com/54527592/228819475-d9ceee53-f0d8-43ce-b09b-4ea7ed0cbc12.png"/><br/><br/>
+<img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"/><br/><br/>
 • <strong>Kreator:</strong> FC28 dibuat oleh Devan Cakra M.W pada tahun 2023.
 
 • <strong>Lembar data:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Klik Disini</a>
