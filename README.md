@@ -3,17 +3,17 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/ESP32_FC28)
 ![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# ESP32_FC28
-This library is used to read the proportion of soil moisture data in the sensor. This library was created specifically to support ESP32 projects.
+# FC28
+This library is used to read soil moisture in percentage form.
 
 <br/>
 
 ## GENERAL INFORMATION
 <img src="https://user-images.githubusercontent.com/54527592/228819475-d9ceee53-f0d8-43ce-b09b-4ea7ed0cbc12.png"/><br/><br/>
-• Creator: ESP32_FC28 was created by Devan Cakra M.W in 2023.<br/>
+• Creator: FC28 was created by Devan Cakra M.W in 2023.<br/>
 • Datasheet: <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Click Here</a><br/>
 • Library Version: V1.0.0 (30-March-2023).<br/>
-• Features: Analog data readout on FC-28 sensor for project ESP32.
+• Features: Analog data readout on FC-28 sensor.
 
 <br/><br/>
 
