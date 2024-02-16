@@ -1,7 +1,7 @@
 // Library: Soil Moisture FC-28
 // By: Devan Cakra M.W
 
-#include <FC28.h> // Library declaration
+#include "FC28.h" // Library declaration
 FC28Sensor mySensor; // Calls the FC28Sensor class declared as the mySensor object
 
 #define SensorFC28_Pin 5 // Sensor pin declaration
