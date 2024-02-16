@@ -1,7 +1,7 @@
 // Library: Soil Moisture FC-28
 // By: Devan Cakra M.W
 
-#include <FC28.h>
+#include "FC28.h"
 
 void FC28Sensor::initFC28Sensor(int baudRate, int pin) {
   Serial.begin(baudRate);
