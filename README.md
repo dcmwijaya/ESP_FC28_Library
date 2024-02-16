@@ -9,7 +9,7 @@ This library is used to read soil moisture in percentage form.
 <br/>
 
 ## GENERAL INFORMATION
-<img src="https://user-images.githubusercontent.com/54527592/228819475-d9ceee53-f0d8-43ce-b09b-4ea7ed0cbc12.png"/><br/><br/>
+<img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"/><br/><br/>
 • <strong>Creator:</strong> FC28 was created by Devan Cakra M.W in 2023.
 
 • <strong>Datasheet:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Click Here</a>
