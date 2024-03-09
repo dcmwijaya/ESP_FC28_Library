@@ -6,10 +6,10 @@
 # FC28
 This library is used to read soil moisture in percentage form.
 
-<br/>
+<br>
 
 ## GENERAL INFORMATION
-<img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"/><br/><br/>
+<img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"><br><br>
 • <strong>Creator:</strong> FC28 was created by Devan Cakra M.W in 2023.
 
 • <strong>Datasheet:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Click Here</a>
@@ -18,7 +18,12 @@ This library is used to read soil moisture in percentage form.
 
 • <strong>Features:</strong> Analog data readout on FC-28 sensor.
 
-<br/><br/>
+<br><br>
+
+## Appreciation
+If you find this work useful, please support this work as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
+
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2023 - Devan C. M. Wijaya, S.Kom
