@@ -4,7 +4,7 @@
 ![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # FC28-Library
-Pustaka ini memang dirancang khusus untuk sensor FC-28. Dengan adanya pustaka ini, seseorang dapat melakukan pengukuran nilai kelembaban tanah dengan mudah.
+Pustaka ini memang dirancang khusus untuk sensor FC-28. Dengan adanya pustaka ini, maka seseorang dapat mengetahui nilai kelembaban tanah yang sedang diukur.
 
 <br>
 
