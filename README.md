@@ -10,7 +10,7 @@ This library was created so that it can be used to read the soil moisture value 
 
 ## GENERAL INFORMATION
 <img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"><br><br>
-• <strong>Creator:</strong> FC28 was created by Devan Cakra M.W in 2023.
+• <strong>Creator:</strong> Devan Cakra M.W.
 
 • <strong>Datasheet:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Click Here</a>
 
