@@ -15,5 +15,18 @@ FUNCTIONS
 ========================================
 
  initFC28Sensor		KEYWORD2
+ threshold		KEYWORD2
+ measurementView	KEYWORD2
  getSoilMoisture	KEYWORD2
+========================================
+
+
+========================================
+VARIABLES
+========================================
+ _pin		int	KEYWORD3
+ wetSoil 	int	KEYWORD3
+ drySoil	int	KEYWORD3
+ analogFC28	float	KEYWORD3
+ value		float	KEYWORD3
 ========================================
