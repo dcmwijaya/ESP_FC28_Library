@@ -13,12 +13,10 @@
 ========================================
 FUNCTIONS
 ========================================
-
  begin			KEYWORD2
  limit			KEYWORD2
  viewData		KEYWORD2
  getSoilMoisture	KEYWORD2
-========================================
 
 
 ========================================
@@ -29,4 +27,6 @@ VARIABLES
  drySoil	int	KEYWORD3
  analogFC28	float	KEYWORD3
  value		float	KEYWORD3
+
+
 ========================================
