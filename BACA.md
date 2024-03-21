@@ -4,13 +4,13 @@
 ![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # FC28
-Pustaka ini digunakan untuk membaca kelembapan tanah dalam bentuk persentase.
+Pustaka ini dibuat agar dapat digunakan untuk membaca nilai kelembaban tanah dari sensor FC-28.
 
 <br>
 
 ## INFORMASI UMUM
 <img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"><br><br>
-• <strong>Kreator:</strong> FC28 dibuat oleh Devan Cakra M.W pada tahun 2023.
+• <strong>Kreator:</strong> Devan Cakra M.W.
 
 • <strong>Lembar data:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Klik Disini</a>
 
