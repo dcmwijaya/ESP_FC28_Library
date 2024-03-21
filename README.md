@@ -4,7 +4,7 @@
 ![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # FC28-Library
-This library was created so that it can be used to read the soil moisture value from the FC-28 sensor.
+This library is tailor-made for the FC-28 sensor's use in measuring soil moisture values.
 
 <br>
 
