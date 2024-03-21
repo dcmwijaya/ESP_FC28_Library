@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/FC28)
-![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Solo-Project: Library](https://img.shields.io/badge/Library-Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # FC28-Library
 Pustaka ini memang dirancang khusus untuk sensor FC-28. Dengan adanya pustaka ini, anda dapat mengetahui secara pasti nilai kelembaban tanah yang diukur.
