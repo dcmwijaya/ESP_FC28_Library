@@ -6,8 +6,8 @@ FC28Sensor mySensor; // calls the FC28Sensor class declared as the mySensor obje
 
 #define SensorFC28_Pin 15 // sensor pin declaration
 
-#define wetSoil 30 // define the minimum value that is considered as 'wet' soil
-#define drySoil 20 // define the maximum value that is considered as 'dry' soil
+#define wetSoil 60 // define the minimum value that is considered as 'wet' soil
+#define drySoil 40 // define the maximum value that is considered as 'dry' soil
 
 float sensorValue; // variable declaration
 
