@@ -14,9 +14,9 @@
 FUNCTIONS
 ========================================
 
- initFC28Sensor		KEYWORD2
- threshold		KEYWORD2
- measurementView	KEYWORD2
+ begin			KEYWORD2
+ limit			KEYWORD2
+ viewData		KEYWORD2
  getSoilMoisture	KEYWORD2
 ========================================
 

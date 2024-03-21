@@ -9,8 +9,7 @@
 //   return 1;
 // #endif
 
-void FC28Sensor::initFC28Sensor(int baudRate, int pin) {
-  Serial.begin(baudRate);
+void FC28Sensor::begin(int pin) {
   pinMode(pin, INPUT);
   _pin = pin;
 }
@@ -1220,20 +1219,23 @@ float FC28Sensor::getSoilMoisture() {
   else if (analogFC28 == 4095) { return value = 0.0; } 
 }
 
-void FC28Sensor::threshold(int min_wet, int max_dry) {
+void FC28Sensor::limit(int min_wet, int max_dry) {
   wetSoil = min_wet;
   drySoil = max_dry;
 }
 
-void FC28Sensor::measurementView() {
+void FC28Sensor::viewData() {
+  if (isnan(_pin)) {
+    Serial.println("Failed to read the value from the FC-28 sensor !!");
+  }
   Serial.println("Value: "+String(value,2)+"%"); // print to serial monitor: soil moisture value
   if(value >= wetSoil) { // if the sensor value is greater than equal to 30% then :
-    Serial.println("Status: wet"); // print to serial monitor: wet soil conditions
+    Serial.println("Status: wet\n"); // print to serial monitor: wet soil conditions
   }
   else if(value > drySoil && value < wetSoil) { // if the sensor value is within the range of 21% - 29% then :
-    Serial.println("Status: moist"); // print to serial monitor: moist soil conditions
+    Serial.println("Status: moist\n"); // print to serial monitor: moist soil conditions
   }
   else{ // if the sensor value is not in wet and moist conditions then :
-    Serial.println("Status: dry"); // print to serial monitor: dry soil conditions
+    Serial.println("Status: dry\n"); // print to serial monitor: dry soil conditions
   }
 }

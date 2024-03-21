@@ -8,9 +8,9 @@
 
 class FC28Sensor{
   public:
-    void initFC28Sensor(int baudRate, int pin);
-    void threshold(int min_wet, int max_dry);
-    void measurementView();
+    void begin(int pin);
+    void limit(int min_wet, int max_dry);
+    void viewData();
     float getSoilMoisture();
 
   private:
