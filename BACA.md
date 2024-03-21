@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/FC28)
 ![Solo-Project: Library](https://img.shields.io/badge/Library-Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# FC28-Library
+# ESP-FC28-Library
 Pustaka ini memang dirancang khusus untuk sensor FC-28. Dengan adanya pustaka ini, anda dapat mengetahui secara pasti nilai kelembaban tanah yang diukur.
 
 <br>
