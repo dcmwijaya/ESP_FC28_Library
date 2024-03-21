@@ -9,7 +9,7 @@ Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapka
 <br>
 
 ## INFORMASI UMUM
-<img src="https://github.com/devancakra/FC28/assets/54527592/33c2d095-6109-4f19-be3e-8827a362f84e"><br><br>
+<img src="https://github.com/devancakra/ESP-FC28-Library/assets/54527592/84920cf8-dc16-414b-99f1-525d338b68d1"><br><br>
 • <strong>Kreator:</strong> Devan Cakra M.W.
 
 • <strong>Lembar data:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Klik Disini</a>
