@@ -4,7 +4,7 @@
 ![Solo-Project: Library](https://img.shields.io/badge/Library-Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # ESP-FC28-Library
-Pustaka ini memang dirancang khusus untuk sensor FC-28. Dengan adanya pustaka ini, anda dapat mengetahui secara pasti nilai kelembaban tanah yang diukur.
+Pustaka ini memang dirancang khusus untuk sensor FC-28. Selain itu, hanya dapat diterapkan pada board ESP. Dengan adanya pustaka ini, anda dapat mengetahui secara pasti nilai kelembaban tanah yang diukur.
 
 <br>
 
