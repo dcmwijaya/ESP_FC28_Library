@@ -13,7 +13,6 @@
 ========================================
 FUNCTIONS
 ========================================
- FC28Sensor			KEYWORD2
  begin				KEYWORD2
  limit				KEYWORD2
  viewData			KEYWORD2
