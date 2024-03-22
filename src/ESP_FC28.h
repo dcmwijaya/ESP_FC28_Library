@@ -8,13 +8,14 @@
 
 class FC28Sensor{
   public:
-    void begin(int pin);
-    void limit(int min_wet, int max_dry);
+    FC28Sensor(uint8_t pin);
+    void begin();
+    void limit(uint8_t min_wet, uint8_t max_dry);
     void viewData();
     float getSoilMoisture();
 
   private:
-    int _pin, wetSoil, drySoil;
+    uint8_t _pin, wetSoil, drySoil;
     float analogFC28, value;
 };
 
