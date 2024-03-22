@@ -3,11 +3,11 @@
 
 #include "ESP_FC28.h" // library declaration
 
-#define FC28Pin 15 // fc-28 pin declaration
+#define FC28PIN 15 // fc-28 pin declaration
 #define wetSoil 60 // define the minimum value that is considered as 'wet' soil
 #define drySoil 40 // define the maximum value that is considered as 'dry' soil
 
-FC28Sensor fc28(FC28Pin); // create a new object with the name fc28 to hold the FC28Sensor class
+FC28Sensor fc28(FC28PIN); // create a new object with the name fc28 to hold the FC28Sensor class
 
 void setup() {
   Serial.begin(115200); // default baudrate for the ESP board
