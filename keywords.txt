@@ -7,26 +7,27 @@
 ========================================
  CLASS
 ========================================
- FC28Sensor		KEYWORD1
+ FC28Sensor			KEYWORD1
 
 
 ========================================
 FUNCTIONS
 ========================================
- begin			KEYWORD2
- limit			KEYWORD2
- viewData		KEYWORD2
- getSoilMoisture	KEYWORD2
+ FC28Sensor			KEYWORD2
+ begin				KEYWORD2
+ limit				KEYWORD2
+ viewData			KEYWORD2
+ getSoilMoisture		KEYWORD2
 
 
 ========================================
 VARIABLES
 ========================================
- _pin		int	KEYWORD3
- wetSoil 	int	KEYWORD3
- drySoil	int	KEYWORD3
- analogFC28	float	KEYWORD3
- value		float	KEYWORD3
+ _pin		uint8_t		KEYWORD3
+ wetSoil 	uint8_t		KEYWORD3
+ drySoil	uint8_t		KEYWORD3
+ analogFC28	float		KEYWORD3
+ value		float		KEYWORD3
 
 
 ========================================
