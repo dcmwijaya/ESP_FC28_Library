@@ -3,16 +3,19 @@
 
 #include "ESP_FC28.h"
 
-// #if defined(ESP8266)
-//   return 1;
-// #elif defined(ESP32)
-//   return 1;
-// #endif
 
-void FC28Sensor::begin(int pin) {
-  pinMode(pin, INPUT);
+
+FC28Sensor::FC28Sensor(uint8_t pin) {
   _pin = pin;
 }
+
+
+
+void FC28Sensor::begin() {
+  pinMode(_pin, INPUT);
+}
+
+
 
 float FC28Sensor::getSoilMoisture() {
   analogFC28 = analogRead(_pin);
@@ -1219,10 +1222,14 @@ float FC28Sensor::getSoilMoisture() {
   else if (analogFC28 == 4095) { return value = 0.0; } 
 }
 
-void FC28Sensor::limit(int min_wet, int max_dry) {
+
+
+void FC28Sensor::limit(uint8_t min_wet, uint8_t max_dry) {
   wetSoil = min_wet;
   drySoil = max_dry;
 }
+
+
 
 void FC28Sensor::viewData() {
   if (isnan(_pin)) {
