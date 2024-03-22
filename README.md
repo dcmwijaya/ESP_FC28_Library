@@ -12,8 +12,6 @@ This library is specifically designed for the FC-28 sensor and can only be imple
 <img src="https://github.com/devancakra/ESP-FC28-Library/assets/54527592/84920cf8-dc16-414b-99f1-525d338b68d1"><br><br>
 • <strong>Creator:</strong> Devan Cakra M.W.
 
-• <strong>Datasheet:</strong> <a href="https://www.datasheethub.com/fc-28-soil-moisture-sensor-module/">Click Here</a>
-
 • <strong>Library Version:</strong> V1.0.0 (30-March-2023).
 
 • <strong>Features:</strong> Analog data readout on FC-28 sensor.
