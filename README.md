@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/FC28)
 ![Solo-Project: Library](https://img.shields.io/badge/Library-Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# ESP-FC28-Library
+# ESP_FC28_Library
 This library is specifically designed for the FC-28 sensor and can only be implemented on ESP boards. With this library, you can know the exact value of the measured soil moisture.
 
 <br>
