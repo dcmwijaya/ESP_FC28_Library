@@ -16,7 +16,7 @@ class FC28Sensor{
 
   private:
     uint8_t _pin, wetSoil, drySoil;
-    float nilaiADC, percentageESP8266, percentageESP32;
+    float nilaiADC, percentage;
 };
 
 #endif
