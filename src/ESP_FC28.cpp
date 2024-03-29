@@ -4,17 +4,14 @@
 #include "ESP_FC28.h"
 
 
-
 FC28Sensor::FC28Sensor(uint8_t pin) {
   _pin = pin;
 }
 
 
-
 void FC28Sensor::begin() {
-  pinMode(_pin, INPUT_PULLUP);
+  pinMode(_pin, INPUT);
 }
-
 
 
 void FC28Sensor::getSoilMoisture() {
@@ -42,12 +39,10 @@ void FC28Sensor::getSoilMoisture() {
 }
 
 
-
 void FC28Sensor::limit(uint8_t min_wet, uint8_t max_dry) {
   wetSoil = min_wet;
   drySoil = max_dry;
 }
-
 
 
 void FC28Sensor::viewData() {
