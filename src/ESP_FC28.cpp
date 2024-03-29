@@ -42,26 +42,26 @@ void FC28Sensor::limit(uint8_t min_wet, uint8_t max_dry) {
 void FC28Sensor::viewData() {
   if(nilaiADC != NULL){
     #if defined(ESP8266)
-      Serial.println("Value: "+String(percentage,2)+"%"); // print to serial monitor: soil moisture value
+      Serial.println("\nValue: "+String(percentage,2)+"%"); // print to serial monitor: soil moisture value
       if(percentage >= wetSoil) { // if the sensor value indicates a wet condition then :
-        Serial.println("Status: wet\n"); // print to serial monitor: wet soil conditions
+        Serial.println("Status: wet"); // print to serial monitor: wet soil conditions
       }
       else if(percentage > drySoil && percentage < wetSoil) { // if the sensor value indicates a moist condition then :
-        Serial.println("Status: moist\n"); // print to serial monitor: moist soil conditions
+        Serial.println("Status: moist"); // print to serial monitor: moist soil conditions
       }
       else{ // if the sensor value is not in wet and moist conditions then :
-        Serial.println("Status: dry\n"); // print to serial monitor: dry soil conditions
+        Serial.println("Status: dry"); // print to serial monitor: dry soil conditions
       }
     #elif defined(ESP32)
-      Serial.println("Value: "+String(percentage,2)+"%"); // print to serial monitor: soil moisture value
+      Serial.println("\nValue: "+String(percentage,2)+"%"); // print to serial monitor: soil moisture value
       if(percentage >= wetSoil) { // if the sensor value indicates a wet condition then :
-        Serial.println("Status: wet\n"); // print to serial monitor: wet soil conditions
+        Serial.println("Status: wet"); // print to serial monitor: wet soil conditions
       }
       else if(percentage > drySoil && percentage < wetSoil) { // if the sensor value indicates a moist condition then :
-        Serial.println("Status: moist\n"); // print to serial monitor: moist soil conditions
+        Serial.println("Status: moist"); // print to serial monitor: moist soil conditions
       }
       else{ // if the sensor value is not in wet and moist conditions then :
-        Serial.println("Status: dry\n"); // print to serial monitor: dry soil conditions
+        Serial.println("Status: dry"); // print to serial monitor: dry soil conditions
       }
     #endif  
   }
