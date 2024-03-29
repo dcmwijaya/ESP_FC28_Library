@@ -16,10 +16,9 @@ void FC28Sensor::begin() {
 
 void FC28Sensor::getSoilMoisture() {
   nilaiADC = analogRead(_pin);
-  Serial.println(nilaiADC);
   
   if(isnan(nilaiADC)){
-    Serial.println("Failed to read the value from the FC-28 sensor !!"); 
+    Serial.println(F("Failed to read the value from the FC-28 sensor !!")); 
     return;
   }
   else{
@@ -32,7 +31,7 @@ void FC28Sensor::getSoilMoisture() {
       if(percentageESP32 < 0){ percentageESP32 = 0; } if(percentageESP32 > 100){ percentageESP32 = 100; } // threshold
 
     #else
-      #error "Your development board is not supported by this library"
+      Serial.println(F("Your development board is not supported by this library"));
 
     #endif  
   }
@@ -48,27 +47,27 @@ void FC28Sensor::limit(uint8_t min_wet, uint8_t max_dry) {
 void FC28Sensor::viewData() {
   if(!isnan(nilaiADC)){
     #if defined(ESP8266)
-      Serial.println("Value: "+String(percentageESP8266,2)+"%"); // print to serial monitor: soil moisture value
+      Serial.println(F("Value: "+String(percentageESP8266,2)+"%")); // print to serial monitor: soil moisture value
       if(percentageESP8266 >= wetSoil) { // if the sensor value indicates a wet condition then :
-        Serial.println("Status: wet\n"); // print to serial monitor: wet soil conditions
+        Serial.println(F("Status: wet\n")); // print to serial monitor: wet soil conditions
       }
       else if(percentageESP8266 > drySoil && percentageESP8266 < wetSoil) { // if the sensor value indicates a moist condition then :
-        Serial.println("Status: moist\n"); // print to serial monitor: moist soil conditions
+        Serial.println(F("Status: moist\n")); // print to serial monitor: moist soil conditions
       }
       else{ // if the sensor value is not in wet and moist conditions then :
-        Serial.println("Status: dry\n"); // print to serial monitor: dry soil conditions
+        Serial.println(F("Status: dry\n")); // print to serial monitor: dry soil conditions
       }
 
     #elif defined(ESP32)
-      Serial.println("Value: "+String(percentageESP32,2)+"%"); // print to serial monitor: soil moisture value
+      Serial.println(F("Value: "+String(percentageESP32,2)+"%")); // print to serial monitor: soil moisture value
       if(percentageESP32 >= wetSoil) { // if the sensor value indicates a wet condition then :
-        Serial.println("Status: wet\n"); // print to serial monitor: wet soil conditions
+        Serial.println(F("Status: wet\n")); // print to serial monitor: wet soil conditions
       }
       else if(percentageESP32 > drySoil && percentageESP32 < wetSoil) { // if the sensor value indicates a moist condition then :
-        Serial.println("Status: moist\n"); // print to serial monitor: moist soil conditions
+        Serial.println(F("Status: moist\n")); // print to serial monitor: moist soil conditions
       }
       else{ // if the sensor value is not in wet and moist conditions then :
-        Serial.println("Status: dry\n"); // print to serial monitor: dry soil conditions
+        Serial.println(F("Status: dry\n")); // print to serial monitor: dry soil conditions
       }
     
     #endif  
