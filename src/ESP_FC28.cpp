@@ -9,7 +9,7 @@ FC28Sensor::FC28Sensor(uint8_t pin) {
 
 
 void FC28Sensor::begin() {
-  pinMode(_pin, INPUT);
+  pinMode(_pin, INPUT_PULLUP);
 }
 
 
