@@ -27,7 +27,7 @@ Please follow the wiring installation below :
     <th width="420">For ESP8266</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/e9ffec6f-2bba-4576-b31e-f1c4bef34652" alt="esp32-fc28"></td>
+    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/4ee21d75-9e7c-4663-b705-c533351833a5" alt="esp32-fc28"></td>
     <td><img src="" alt="nodemcu-fc28"></td>
   </tr>
 </table>
