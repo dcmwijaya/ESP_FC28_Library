@@ -18,6 +18,22 @@ This library is specifically designed for the FC-28 sensor and can only be imple
 
 <br><br>
 
+## Device Wiring
+Please follow the wiring installation below :
+
+<table>
+  <tr>
+    <th width="420">For ESP32</th>
+    <th width="420">For ESP8266</th>
+  </tr>
+  <tr>
+    <td><img src="" alt="esp32-fc28"></td>
+    <td><img src="" alt="nodemcu-fc28"></td>
+  </tr>
+</table>
+
+<br><br>
+
 ## Appreciation
 If this work is useful to you, then support this work as a form of appreciation to the author by clicking the ``` ⭐Star ``` button at the top of the repository.
 
