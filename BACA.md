@@ -27,7 +27,7 @@ Silakan ikuti pemasangan kabel di bawah ini:
     <th width="420">Untuk ESP8266</th>
   </tr>
   <tr>
-    <td><img src="" alt="esp32-fc28"></td>
+    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/4ee21d75-9e7c-4663-b705-c533351833a5" alt="esp32-fc28"></td>
     <td><img src="" alt="nodemcu-fc28"></td>
   </tr>
 </table>
