@@ -18,6 +18,22 @@ Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapka
 
 <br><br>
 
+## Pengkabelan Perangkat
+Silakan ikuti pemasangan kabel di bawah ini:
+
+<table>
+  <tr>
+    <th width="420">Untuk ESP32</th>
+    <th width="420">Untuk ESP8266</th>
+  </tr>
+  <tr>
+    <td><img src="" alt="esp32-fc28"></td>
+    <td><img src="" alt="nodemcu-fc28"></td>
+  </tr>
+</table>
+
+<br><br>
+
 ## Apresiasi
 Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan mengklik tombol ``` ⭐Bintang ``` di bagian atas repositori.
 
