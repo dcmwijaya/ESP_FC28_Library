@@ -20,10 +20,10 @@ float FC28Sensor::calibration(float cbr){
 
 
 void FC28Sensor::getSoilMoisture() {
-  nilaiADC = analogRead(_pin);
+  ADCvalue = analogRead(_pin);
   Serial.println(nilaiADC);
 
-  if(nilaiADC == NULL){
+  if(ADCvalue == NULL){
     Serial.println("Failed to read the value from the FC-28 sensor !!"); 
     return;
   }
@@ -68,7 +68,7 @@ void FC28Sensor::vState(){
 
 
 void FC28Sensor::viewData() {
-  if(nilaiADC != NULL){
+  if(ADCvalue != NULL){
     #if defined(ESP8266) 
       vState();
     #elif defined(ESP32)
