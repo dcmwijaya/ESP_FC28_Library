@@ -21,7 +21,6 @@ float FC28Sensor::calibration(float cbr){
 
 void FC28Sensor::getSoilMoisture() {
   ADCvalue = analogRead(_pin);
-  Serial.println(nilaiADC);
 
   if(ADCvalue == NULL){
     Serial.println("Failed to read the value from the FC-28 sensor !!"); 
@@ -29,10 +28,10 @@ void FC28Sensor::getSoilMoisture() {
   }
   else{
     #if defined(ESP8266)
-      percentage = ((100 - ((nilaiADC/1023) * 100))-adjust); // 10 bit => ADC resolution: 1023
+      percentage = ((100 - ((ADCvalue/1023) * 100))-adjust); // 10 bit => ADC resolution: 1023
       threshold();
     #elif defined(ESP32)
-      percentage = ((100 - ((nilaiADC/4095) * 100))-adjust); // 12 bit => ADC resolution: 4095
+      percentage = ((100 - ((ADCvalue/4095) * 100))-adjust); // 12 bit => ADC resolution: 4095
       threshold();
     #else
       Serial.println("Your development board is not supported by this library");
