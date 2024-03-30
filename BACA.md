@@ -28,7 +28,7 @@ Silakan ikuti pemasangan kabel di bawah ini:
   </tr>
   <tr>
     <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/4ee21d75-9e7c-4663-b705-c533351833a5" alt="esp32-fc28"></td>
-    <td><img src="" alt="nodemcu-fc28"></td>
+    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/71a7daa8-2927-41c6-b26c-88cd96e118b5" alt="nodemcu-fc28"></td>
   </tr>
 </table>
 
