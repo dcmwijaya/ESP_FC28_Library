@@ -19,7 +19,7 @@ class FC28Sensor{
 
   private:
     uint8_t _pin, wetSoil, drySoil;
-    float nilaiADC, percentage, adjust;
+    float ADCvalue, percentage, adjust;
 };
 
 #endif
