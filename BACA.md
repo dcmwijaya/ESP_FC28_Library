@@ -12,9 +12,19 @@ Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapka
 <img src="https://github.com/devancakra/ESP-FC28-Library/assets/54527592/87f3ef05-6309-4cc7-ab5d-45262f5f31d2"><br><br>
 • <strong>Kreator:</strong> Devan Cakra M.W.
 
-• <strong>Versi Pustaka:</strong> V1.0.0 (30-Maret-2023).
+• <strong>Versi Pustaka:</strong> V1.0.0 (Diperbarui: 31-Maret-2024).
 
-• <strong>Fitur:</strong> Pembacaan data analog pada sensor FC-28.
+• <strong>Fitur:</strong> 
+
+  1. Kalibrasi.
+
+  2. Penentuan ambang batas (batas atas dan bawah).
+  
+  3. Pembacaan sensor dalam persentase (%).
+  
+  4. Kategorisasi status kelembaban tanah.
+
+  5. Deteksi konektivitas sensor.
 
 <br><br>
 
