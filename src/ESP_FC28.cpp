@@ -13,7 +13,7 @@ void FC28Sensor::begin() {
 }
 
 
-float FC28Sensor::calibration(float cbr){
+float FC28Sensor::calibration(float cbr) {
   adjust = cbr;
   return adjust;
 }
@@ -43,7 +43,7 @@ float FC28Sensor::getSoilMoisture() {
 }
 
 
-void FC28Sensor::threshold(){
+void FC28Sensor::threshold() {
   if(percentage < 0){ percentage = 0; }     // lower limit
   if(percentage > 100){ percentage = 100; } // upper limit
 }
@@ -55,7 +55,7 @@ void FC28Sensor::limit(uint8_t min_wet, uint8_t max_dry) {
 }
 
 
-void FC28Sensor::vState(){
+void FC28Sensor::vState() {
   Serial.println("\nValue: "+String(percentage,2)+"%"); // print to serial monitor: soil moisture value
   if(percentage >= wetSoil) { // if the sensor value indicates a wet condition then :
     Serial.println("Status: wet"); // print to serial monitor: wet soil conditions
