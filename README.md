@@ -14,7 +14,17 @@ This library is specifically designed for the FC-28 sensor and can only be imple
 
 • <strong>Library Version:</strong> V1.0.0 (30-March-2023).
 
-• <strong>Features:</strong> Analog data readout on FC-28 sensor.
+• <strong>Features:</strong> 
+
+  1. Calibration.
+
+  2. Threshold determination (upper and lower limits).
+  
+  3. Sensor reading in percentage (%).
+  
+  4. Categorization of soil moisture status.
+
+  5. Sensor connectivity detection.
 
 <br><br>
 
