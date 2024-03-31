@@ -12,7 +12,7 @@ This library is specifically designed for the FC-28 sensor and can only be imple
 <img src="https://github.com/devancakra/ESP-FC28-Library/assets/54527592/87f3ef05-6309-4cc7-ab5d-45262f5f31d2"><br><br>
 • <strong>Creator:</strong> Devan Cakra M.W.
 
-• <strong>Library Version:</strong> V1.0.0 (30-March-2023).
+• <strong>Library Version:</strong> V1.0.0 (Updated: 31-March-2024).
 
 • <strong>Features:</strong> 
 
