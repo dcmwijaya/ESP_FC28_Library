@@ -10,12 +10,12 @@ class FC28Sensor{
   public:
     FC28Sensor(uint8_t pin);
     void begin();
-    void getSoilMoisture();
     void threshold();
     void limit(uint8_t min_wet, uint8_t max_dry);
     void vState();
     void viewData();
     float calibration(float cbr);
+    float getSoilMoisture();
 
   private:
     uint8_t _pin, wetSoil, drySoil;
