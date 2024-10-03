@@ -13,7 +13,7 @@ This library is specifically designed for the FC-28 sensor and can only be imple
 <img src="extras/documentation/pinout/FC28.jpg"><br><br>
 • <strong>Creator:</strong> Devan Cakra M.W.
 
-• <strong>Library Version:</strong> V1.0.0 (Updated: 31-March-2024).
+• <strong>Library Version:</strong> V1.0.0 (31-March-2024).
 
 • <strong>Features:</strong> 
 

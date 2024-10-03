@@ -13,7 +13,7 @@ Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapka
 <img src="extras/documentation/pinout/FC28.jpg"><br><br>
 • <strong>Kreator:</strong> Devan Cakra M.W.
 
-• <strong>Versi Pustaka:</strong> V1.0.0 (Diperbarui: 31-Maret-2024).
+• <strong>Versi Pustaka:</strong> V1.0.0 (31-Maret-2024).
 
 • <strong>Fitur:</strong> 
 
