@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/ESP_FC28_Library)
-![Solo-Project: Library](https://img.shields.io/badge/Library-Soil%20Moisture-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/ESP_FC28_Library?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Library-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # ESP_FC28_Library
 Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapkan pada board ESP. Dengan adanya pustaka ini, anda dapat mengetahui secara pasti nilai kelembaban tanah yang diukur.
@@ -9,7 +10,7 @@ Pustaka ini memang dirancang khusus untuk sensor FC-28 dan hanya dapat diterapka
 <br>
 
 ## INFORMASI UMUM
-<img src="https://github.com/devancakra/ESP-FC28-Library/assets/54527592/87f3ef05-6309-4cc7-ab5d-45262f5f31d2"><br><br>
+<img src="extras/documentation/pinout/FC28.jpg"><br><br>
 • <strong>Kreator:</strong> Devan Cakra M.W.
 
 • <strong>Versi Pustaka:</strong> V1.0.0 (Diperbarui: 31-Maret-2024).
@@ -37,8 +38,8 @@ Silakan ikuti pemasangan kabel di bawah ini:
     <th width="420">Untuk ESP8266</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/404231e9-e3f2-4453-8f3f-416ab78c2c8c" alt="esp32-fc28"></td>
-    <td><img src="https://github.com/devancakra/ESP_FC28_Library/assets/54527592/aaa46cf7-5008-4776-802c-3ba22507ee3f" alt="nodemcu-fc28"></td>
+    <td><img src="extras/documentation/diagram/FC28-ESP32 Wiring.jpg" alt="esp32-fc28"></td>
+    <td><img src="extras/documentation/diagram/FC28-ESP8266 Wiring.jpg" alt="nodemcu-fc28"></td>
   </tr>
 </table>
 
